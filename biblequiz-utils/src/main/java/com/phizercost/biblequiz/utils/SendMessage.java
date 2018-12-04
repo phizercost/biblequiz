@@ -12,7 +12,7 @@ public class SendMessage {
 	public void broadcast(String receiver, String message) throws Exception {
 		
 		message = URLEncoder.encode(message, "UTF-8");
-		String url = "http://41.186.58.22:20503/cgi-bin/sendsms?username=lacazette&password=tolavologe2121&from=QUIZ&to="+receiver+"&text="+message+"&smsc=smsc1&mclass=0";
+		String url = "*****";
 
 		
 		URL obj = new URL(url);
